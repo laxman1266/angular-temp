@@ -16,4 +16,4 @@ const port = process.env.PORT || 3001;
 app.listen(port, () => {
     console.log(`Server runs under port: ${port} `);
 });
-app.use('/', rentalRoute);
+app.use('/api/v1/rentals', rentalRoute);
